@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home Page</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="static/home.js"></script>
+    <link rel="stylesheet" href="static/home.css">
+</head>
+<body>
+    <h1>Hi ! Welcome to the home page!</h1>
+
+
+    <div id="inputAreaDiv">
+        <table>
+            <tr><td>First Name:</td><td><input id="fName"></td></tr>
+            <tr><td>Last Name:</td><td><input id="lName"></td></tr>
+            <tr><td>Address:</td><td><input id="address"></td></tr>
+            <tr><td>Phone Number:</td><td><input id="phone"></td></tr>
+            <tr><td><button id="btnSubmit">Submit</button></td><td>Submit Ajax POST request</td></tr>
+        </table>
+    </div>
+    <br>
+    <button id="btnPage2">Open Page 2</button>
+    <br>
+    <button id="btnFetchAll">Click to perform an Ajax GET request to fetch all persons and print last names list</button>
+
+    <div id="outputDiv">
+
+    </div>
+</body>
+</html>
